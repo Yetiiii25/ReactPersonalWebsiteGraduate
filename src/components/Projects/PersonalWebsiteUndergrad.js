@@ -29,7 +29,8 @@ const PersonalWebsiteUndergrad = () => {
               </div>
               <div className="row small">
                 <div className="col-md-12">
-                  <p className="text-muted"> <a style={{ color: 'var(--text-color)', textDecoration: 'none', transition:'background 0.3s ease-in-out, color 0.6s ease-in-out' }} href="https://yetiiii25.github.io/PersonalWebsiteConversionReact/" target="_blank" rel="noreferrer">
+                  <p className="text-muted"> <a style={{ color: 'var(--text-color)', textDecoration: 'none', transition:'background 0.3s ease-in-out, color 0.6s ease-in-out' }} 
+                  href="https://yetiiii25.github.io/ReactPersonalWebsiteGraduate/" target="_blank" rel="noreferrer">
                   <IoRocketSharp className="icon" style={{marginRight:5}}/>Live Demo Here</a></p>
                 </div>
               </div>
