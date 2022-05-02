@@ -1,0 +1,87 @@
+/*FOOTER*/
+
+.footerbutton{
+    color: blueviolet;
+    text-decoration: underline;
+  }
+  
+  .footerp{
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: inherit;
+    color:  black;
+    border: none;
+    padding: 0;
+    padding-left: 3px;
+    margin: 0;
+    color: blueviolet;
+    font-weight: 700;
+  }
+  
+  .dropup {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropup-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 180px;
+    bottom: 25px;
+    z-index: 1;
+    border: .5px solid;
+    border-color: #ddd;
+  }
+  
+  .dropup-content img{
+    width: 48px;
+    height: 48px;
+    transform: scale(0.6);
+  }
+  
+  .dropup-content a {
+    color: black;
+    padding: 0;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    font-family: Satosh;
+    font-weight: 700;
+    text-decoration: none;
+    
+  }
+
+  
+.dropup-content a:hover {background-color: #ccc}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  background-color: #fff;
+}
+
+
+.titlee .title{
+  font-weight: 400;
+  font-size: 3rem;
+  padding-left:0px;
+
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 2rem;
+  padding-top: 55px;
+
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
