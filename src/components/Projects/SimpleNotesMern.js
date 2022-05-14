@@ -33,7 +33,7 @@ function SimpleNotesMern() {
                                         <IoRocketSharp className="icon" style={{ marginRight: 5,marginLeft:3}} />Live Demo Here</a></p>
                                 </div>
                                 <div className="col-md-12">
-                <p className="text-muted"> <a style={{ color: 'var(--text-color)', textDecoration: 'none', transition:'background 0.3s ease-in-out, color 0.6s ease-in-out' }} href="https://github.com/Yetiiii25/SimpleNotesUsingMMERNStack-JWT-REDUX" target="_blank" rel="noreferrer">
+                <p className="text-muted"> <a style={{ color: 'var(--text-color)', textDecoration: 'none', transition:'background 0.3s ease-in-out, color 0.6s ease-in-out' }} href="https://github.com/Yetiiii25/SimpleNotesUsingMERNStack-JWT-REDUX" target="_blank" rel="noreferrer">
                 <DiGithubAlt className="icon" size={20} style={{marginRight:2, marginLeft:0, marginBottom:2.5}}/>GitHub Repository Here</a></p>
               </div>
                             </div>
