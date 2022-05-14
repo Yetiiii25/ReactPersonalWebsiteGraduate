@@ -45,7 +45,7 @@ export const portfolioObjSix = {
 
 export const portfolioObjSeven = {
     label: '07',
-    src: 'images/portfolio/ConversionPersonalWebsiteUndergrad.png',
+    src: 'images/portfolio/ConversionUndergrad.png',
     text: 'Conversion of My Personal Website as College Student to React.Js',
     path: '/personalwebsitecollegeconversion'
 };
