@@ -13,7 +13,7 @@ const PersonalWebsiteCollegeConversion = () => {
             <h1>My Personal Website conversion into React.JS</h1>
           </div>
           <div className="col-sm-7">
-            <img className="w-100 img-fluid" src="images/portfolio/projects/PersonalWebsiteCollegeConversion/ConversionPersonalWebsiteUndergrad.png" alt="" />
+            <img className="w-100 img-fluid" src="images/portfolio/projects/PersonalWebsiteCollegeConversion/ConversionUndergrad.png" alt="" />
           </div>
           <div className="row mb-3">
             <div className="col-sm-12 pt-5">
