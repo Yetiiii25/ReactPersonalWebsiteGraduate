@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import {Card, TitleSection, CardsContainer, Wrapper , CardsItems} from '../styled/CardStyled';
 import CardItems from '../components/CardItems'
-import {portfolioObjFive, portfolioObjFour, portfolioObjOne, portfolioObjSix, portfolioObjThree, portfolioObjTwo} from '../pages/PortfolioPage/CardsData';
+import {portfolioObjEight, portfolioObjFive, portfolioObjFour, portfolioObjOne, portfolioObjSeven, portfolioObjSix, portfolioObjThree, portfolioObjTwo} from '../pages/PortfolioPage/CardsData';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 const Portfolio = () => {
@@ -27,6 +27,10 @@ const Portfolio = () => {
             <CardsItems>
                 <CardItems {...portfolioObjFive}/>
                 <CardItems {...portfolioObjSix} />
+            </CardsItems>
+            <CardsItems>
+                <CardItems {...portfolioObjSeven}/>
+                <CardItems {...portfolioObjEight} />
             </CardsItems>
         </Wrapper>
     </CardsContainer>

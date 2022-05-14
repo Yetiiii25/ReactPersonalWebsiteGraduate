@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import {Card, TitleSection, CardsContainer, Wrapper , CardsItems} from '../styled/CardStyled';
 import CardItems from '../components/CardItems'
-import {portfolioObjFive, portfolioObjFour, portfolioObjOne, portfolioObjThree, portfolioObjTwo} from '../pages/PortfolioPage/CardsData';
+import {portfolioObjFive, portfolioObjFour, portfolioObjOne, portfolioObjSeven, portfolioObjThree, portfolioObjTwo} from '../pages/PortfolioPage/CardsData';
 import CardsItemsCertifications from '../components/CardItemsCertifications'
 import { experienceObjEight, experienceObjFive, experienceObjFour, experienceObjOne, experienceObjThree, experienceObjTwo } from '../pages/ExperiencePage/ExperienceData';
 import { ButtonLink } from '../globalStyles';
@@ -45,7 +45,7 @@ const CardHome = () => {
             <Wrapper>
                 <CardsItems>
                     <CardItems {...portfolioObjOne} />
-                    <CardItems {...portfolioObjTwo}/>
+                    <CardItems {...portfolioObjTwo} />
                 </CardsItems>
                 <CardsItems>
                     <CardItems {...portfolioObjThree}/>

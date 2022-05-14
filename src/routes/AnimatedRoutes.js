@@ -11,6 +11,8 @@ import PersonalWebsiteCollege from '../components/Projects/PersonalWebsiteColleg
 import PersonalWebsiteCollegeConversion from '../components/Projects/PersonalWebsiteCollegeConversion'
 import PersonalWebsiteUndergrad from '../components/Projects/PersonalWebsiteUndergrad'
 import {AnimatePresence} from 'framer-motion'
+import SimpleNotesMern from '../components/Projects/SimpleNotesMern';
+import ExpenseTrackerMern from '../components/Projects/ExpenseTrackerMern';
 
 const AnimatedRoutes = () => {
     const location = useLocation();
@@ -28,6 +30,8 @@ const AnimatedRoutes = () => {
     <Route path="/personalwebsitecollege" element={<PersonalWebsiteCollege />} />
     <Route path="/personalwebsitecollegeconversion" element={<PersonalWebsiteCollegeConversion />} />
     <Route path="/pesonalwebsiteundergrad" element={<PersonalWebsiteUndergrad />} />
+    <Route path="/simplenotes" element={<SimpleNotesMern />} />
+    <Route path="/expensetracker" element={<ExpenseTrackerMern />} />
   </Routes>
   </AnimatePresence>
   )

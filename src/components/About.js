@@ -8,7 +8,7 @@ import { infoObjOne } from '../pages/AboutPage/Data'
 
 import { FaFacebookSquare } from "react-icons/fa";
 
-const About = ({ topline,midline,bottomline,
+const About = ({ topline, midline, bottomline,
   headline }) => {
 
   //About me page
@@ -42,76 +42,70 @@ const About = ({ topline,midline,bottomline,
             <UnderlineAnimation><a href="https://www.facebook.com/universe25/" target="_blank" rel="noreferrer"><>&#129042;</> Facebook</a></UnderlineAnimation><br />
           </Col>
           <Col className="col-sm-9 lead mt-2">{topline}
-          <Col className="mt-4">{midline}
-          <Col className="mt-4">{bottomline}</Col></Col></Col>
+            <Col className="mt-4">{midline}
+              <Col className="mt-4">{bottomline}</Col></Col></Col>
 
           <SubTitleSection>Tech Stack</SubTitleSection>
           <Cards>
             <Services>
-              <Tippy content={<ColoredTooltip {...infoObjOne} />}>
-                <Service>
-                  <Icon src="images/techstack/react.png" alt="" /> 
-                </Service>
-              </Tippy>
-              <Tippy content={<ColoredTooltip />} delay={100}  >
-                <Service>
-                  <Icon src="images/techstack/java.png" alt="" />
-                </Service>
-              </Tippy>
 
-              <Tippy content={<ColoredTooltip />} delay={200}  >
-                <Service>
-                  <Icon src="images/techstack/netcore.png" alt="" />
-                </Service>
-              </Tippy>
+              {/* <Tippy content={<ColoredTooltip />} delay={200}  >
+              </Tippy> */}
 
-              <Tippy content={<ColoredTooltip />} delay={200}  >
-                <Service>
-                  <Icon src="images/techstack/azure.png" alt="" />
-                </Service>
-              </Tippy>
+              <Service>
+                <Icon src="images/techstack/react.png" alt="" />
+              </Service>
 
-              <Tippy content={<ColoredTooltip />} delay={200}  >
-                <Service>
-                  <Icon src="images/techstack/mssql.png" alt="" />
-                </Service>
-              </Tippy>
+              <Service>
+                <Icon src="images/techstack/java.png" alt="" />
+              </Service>
+            
+              <Service>
+                <Icon src="images/techstack/mongodb.png" alt="" />
+              </Service>
 
-              <Tippy content={<ColoredTooltip />} delay={200}  >
-                <Service>
-                  <Icon src="images/techstack/phpmyadmin.png" alt="" />
-                </Service>
-              </Tippy>
+              <Service>
+                <Icon src="images/techstack/azure.png" alt="" />
+              </Service>
 
-              <Tippy content={<ColoredTooltip />} delay={200}  >
-                <Service>
-                  <Icon src="images/techstack/firebase.png" alt="" />
-                </Service>
-              </Tippy>
+              <Service>
+                <Icon src="images/techstack/html.png" alt="" />
+              </Service>
 
-              <Tippy content={<ColoredTooltip />} delay={200}  >
-                <Service>
-                  <Icon src="images/techstack/html.png" alt="" />
-                </Service>
-              </Tippy>
+              <Service>
+                <Icon src="images/techstack/css.png" alt="" />
+              </Service>
 
-              <Tippy content={<ColoredTooltip />} delay={200}  >
-                <Service>
-                  <Icon src="images/techstack/css.png" alt="" />
-                </Service>
-              </Tippy>
+              <Service>
+                <Icon src="images/techstack/js.png" alt="" />
+              </Service>
 
-              <Tippy content={<ColoredTooltip />} delay={200}  >
-                <Service>
-                  <Icon src="images/techstack/js.png" alt="" />
-                </Service>
-              </Tippy>
+              <Service>
+                <Icon src="images/techstack/bootstrap.png" alt="" />
+              </Service>
 
-              <Tippy content={<ColoredTooltip />} delay={200}  >
-                <Service>
-                  <Icon src="images/techstack/bootstrap.png" alt="" />
-                </Service>
-              </Tippy>
+              <Service>
+                <Icon src="images/techstack/androidstudio.png" alt="" />
+              </Service>
+
+              <Service>
+                <Icon src="images/techstack/firebase.png" alt="" />
+              </Service>
+
+              <Service>
+                <Icon src="images/techstack/netcore.png" alt="" />
+              </Service>
+
+              <Service>
+                <Icon src="images/techstack/mssql.png" alt="" />
+              </Service>
+
+              <Service>
+                <Icon src="images/techstack/phpmyadmin.png" alt="" />
+              </Service>
+       
+
+
             </Services>
           </Cards>
 

@@ -13,34 +13,47 @@ export const portfolioObjTwo = {
 
 };
 
-
 export const portfolioObjThree = {
     label: '03',
+    src: 'images/portfolio/SimpleNotesMenu.png',
+    text: 'Simple Notes using MERN Stack, JWT, REDUX',
+    path: '/simplenotes'
+};
+
+export const portfolioObjFour = {
+    label: '04',
+    src: 'images/portfolio/ExpenseTrackerMenu.png',
+    text: 'Expense Tracker using MERN Stack',
+    path: '/expensetracker'
+};
+
+
+export const portfolioObjFive = {
+    label: '05',
     src: 'images/portfolio/DarkMode.png',
     text: 'Responsive Light Mode and Dark Mode React Js',
     path: '/darklighttheme'
 };
 
-export const portfolioObjFour = {
-    label: '04',
+export const portfolioObjSix = {
+    label: '06',
     src: 'images/portfolio/PatientInfo.png',
     text: 'Patient Information System For SSCR Manila Clinic',
     path: '/patientinfo'
 
 };
 
-export const portfolioObjFive = {
-    label: '05',
+export const portfolioObjSeven = {
+    label: '07',
     src: 'images/portfolio/ConversionPersonalWebsiteUndergrad.png',
     text: 'Conversion of My Personal Website as College Student to React.Js',
     path: '/personalwebsitecollegeconversion'
 };
 
-export const portfolioObjSix = {
-    label: '06',
-
-
+export const portfolioObjEight = {
+    label: '08',
     src: 'images/portfolio/PersonalWebsiteUndergrad.png',
     text: 'My Personal Website as College Student',
     path: '/personalwebsitecollege'
 };
+
