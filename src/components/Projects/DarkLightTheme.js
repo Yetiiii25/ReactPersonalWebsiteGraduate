@@ -66,7 +66,7 @@ const DarkLightTheme = () => {
 
       <div className="row mb-3 pt-5 pb-4">
         <div className="col-sm-5 h3">Tech Stack</div>
-        <div className="col-sm-7 lead"><img className="w-100 img-fluid" src="images/portfolio/projects/DarkLightTheme/techstack.png" alt="" />
+        <div className="col-sm-7 lead"><img className="w-100 img-fluid" src="images/portfolio/projects/DarkLightTheme/TechStack.png" alt="" />
         </div>
       </div>
       <div className="row mb-3 pb-4">
