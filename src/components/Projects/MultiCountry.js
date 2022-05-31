@@ -12,7 +12,7 @@ const MultiCountry = () => {
             <h1>Multi-Country Paper Bill Scanner For Visually Impaired People</h1>
           </div>
           <div className="col-sm-7">
-            <img className="w-100 img-fluid" src="images/portfolio/projects/MultiCountry/MultiCountry.png" alt="" />
+            <img className="w-100 img-fluid" src="images/portfolio/projects/MultiCountry/Multicountry.png" alt="" />
           </div>
           <div className="row mb-3">
             <div className="col-sm-12 pt-5">
