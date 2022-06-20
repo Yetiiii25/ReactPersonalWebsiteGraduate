@@ -18,7 +18,7 @@ const Ropsten = () => {
                     </div>
                     <div className="row mb-3">
                         <div className="col-sm-12 pt-5">
-                            <p className="lead">This is a sample of React.Js, React-router V6, NavBar with Darkmode. Which is ready to use for your upcoming website project!
+                            <p className="lead">This is my very first Blockchain Application! In which also a great lesson for me, starting from Smart Contracts to Vite and to Styling using Mui and Tailwind CSS.
                             </p>
                         </div>
                         <div className="col-sm-0"></div>
@@ -30,7 +30,7 @@ const Ropsten = () => {
                             </div>
                             <div className="row small">
                                 <div className="col-md-12">
-                                    <p className="text-muted"> <a style={{ color: 'var(--text-color)', textDecoration: 'none', transition: 'background 0.3s ease-in-out, color 0.6s ease-in-out' }} href="https://github.com/Yetiiii25/DarkModeThemeReactTemplate" target="_blank" rel="noreferrer">
+                                    <p className="text-muted"> <a style={{ color: 'var(--text-color)', textDecoration: 'none', transition: 'background 0.3s ease-in-out, color 0.6s ease-in-out' }} href="https://github.com/Yetiiii25/RopstenTestNetworkCryptoMarket" target="_blank" rel="noreferrer">
                                         <DiGithubAlt className="icon" size={20} style={{ marginRight: 2, marginLeft: 0, marginBottom: 2.5 }} />GitHub Repository Here</a></p>
                                 </div>
                             </div>
