@@ -13,6 +13,8 @@ import PersonalWebsiteUndergrad from '../components/Projects/PersonalWebsiteUnde
 import {AnimatePresence} from 'framer-motion'
 import SimpleNotesMern from '../components/Projects/SimpleNotesMern';
 import ExpenseTrackerMern from '../components/Projects/ExpenseTrackerMern';
+import ProtectedRoutes from '../components/Projects/ProtectedRoutes';
+import Ropsten from '../components/Projects/Ropsten';
 
 const AnimatedRoutes = () => {
     const location = useLocation();
@@ -27,6 +29,10 @@ const AnimatedRoutes = () => {
     <Route path="/multicountry" element={<MultiCountry />} />
     <Route path="/darklighttheme" element={<DarkLightTheme />} />
     <Route path="/patientinfo" element={<PatientInfoSystem />} />
+
+    <Route path="/ropsten" element={<Ropsten />} />
+    <Route path="/protectedroutes" element={<ProtectedRoutes />} />
+
     <Route path="/personalwebsitecollege" element={<PersonalWebsiteCollege />} />
     <Route path="/personalwebsitecollegeconversion" element={<PersonalWebsiteCollegeConversion />} />
     <Route path="/pesonalwebsiteundergrad" element={<PersonalWebsiteUndergrad />} />
