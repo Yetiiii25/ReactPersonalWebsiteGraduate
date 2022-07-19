@@ -15,6 +15,7 @@ import SimpleNotesMern from '../components/Projects/SimpleNotesMern';
 import ExpenseTrackerMern from '../components/Projects/ExpenseTrackerMern';
 import ProtectedRoutes from '../components/Projects/ProtectedRoutes';
 import Ropsten from '../components/Projects/Ropsten';
+import SurveyVue from '../components/Projects/SurveyVue';
 
 const AnimatedRoutes = () => {
     const location = useLocation();
@@ -30,6 +31,7 @@ const AnimatedRoutes = () => {
     <Route path="/darklighttheme" element={<DarkLightTheme />} />
     <Route path="/patientinfo" element={<PatientInfoSystem />} />
 
+    <Route path="/survey" element={<SurveyVue />} />
     <Route path="/ropsten" element={<Ropsten />} />
     <Route path="/protectedroutes" element={<ProtectedRoutes />} />
 

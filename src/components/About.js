@@ -54,14 +54,22 @@ const About = ({ topline, midline, bottomline,
 
               <Service>
                 <Icon src="images/techstack/react.png" alt="" />
+              </Service>         
+
+              <Service>
+                <Icon src="images/techstack/vuejs.png" alt="" />
+              </Service>
+
+              <Service>
+                <Icon src="images/techstack/nodejs.png" alt="" />
+              </Service>
+
+              <Service>
+                <Icon src="images/techstack/mongodb.png" alt="" />
               </Service>
 
               <Service>
                 <Icon src="images/techstack/java.png" alt="" />
-              </Service>
-            
-              <Service>
-                <Icon src="images/techstack/mongodb.png" alt="" />
               </Service>
 
               <Service>
